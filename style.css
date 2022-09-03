@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    background-color: rgb(88, 38, 42);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+     
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.feel{
+    margin-top: 20px;
+    margin-left: 60px;
+    align-items: center;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+a:hover {
+    border-bottom: 2.4px solid rgb(10, 234, 234);
+    color: white;
+  }
+
+  
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+    
+}
+.popular{
+    /* margin-left: 30%; */
+    color: white;
+}
+
+.container{
+    /* /* min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif; */
+    
+
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   /* margin: 23px auto; */
+   /* width: 0%; */
+   /* border-radius: 12px;
+   padding: 34px;
+   /* background-image: url(XUbd.gif); */
+   /* border-radius: 4px;
+   border-color: aqua;
+   border-style: outset; */ 
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+    align-items: center;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(52, 158, 182);
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: rgb(0, 234, 255);
+    }
+  }
+
+
+
+  * {
+    /* font-family: 'Archivo Narrow', sans-serif; */
+    text-align: center;
+    color: white;
+    text-decoration: none;
+  }
+
+  .music {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333333;
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 20px;
+    vertical-align: top;
+    position: relative;
+  }
+  
+  .music::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .christian {
+    background-image: url("https://media.istockphoto.com/photos/cheering-crowd-with-hands-in-air-at-music-festival-picture-id1247853982?b=1&k=20&m=1247853982&s=170667a&w=0&h=sWNEepgWwrm1gH288XfI4uCV0xI6ZZ65aXsshxEiUv4=");
+    background-size: cover;
+    background-position: center;
+
+  }
+  
+  p {
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+  }
+  
+  .pop {
+    background-image: url("https://static.pexels.com/photos/134/light-creative-abstract-colorful.jpg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+  
+  .mood {
+    background-image: url("https://media.istockphoto.com/photos/the-musicians-were-playing-rock-music-on-stage-there-was-an-audience-picture-id1319479588?b=1&k=20&m=1319479588&s=170667a&w=0&h=bunblYyTDA_vnXu-nY4x4oa7ke6aiiZKntZ5mfr-4aM=");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+  
+  .hiphop {
+    background-image: url("https://media.istockphoto.com/photos/futuristic-glowing-blue-neon-musical-notes-symbol-on-black-dark-with-picture-id1297856131?b=1&k=20&m=1297856131&s=170667a&w=0&h=VUBgsMFWU0eaMAr1nV2h-IvyklJfKGmPApyKepcw0l4=");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    
+  }
+  
+  .chill {
+    background-image: url("https://static.pexels.com/photos/91224/pexels-photo-91224.jpeg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+  
+  .latino {
+    background-image: url("https://static.pexels.com/photos/58737/pexels-photo-58737.jpeg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+  
+  .electronic {
+    background-image: url("https://media.istockphoto.com/photos/love-it-picture-id1312766354?b=1&k=20&m=1312766354&s=170667a&w=0&h=-HM1RqOCh7SEFRcdBshd5DT_Ge-597UDwgyoSGrZYQY=");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+  
+  .country {
+    background-image: url("https://media.istockphoto.com/photos/blue-musical-instrument-wall-picture-id1283143454?b=1&k=20&m=1283143454&s=170667a&w=0&h=p-3qMtjQScHR8lG1iflIQFFcgwHNZ52Gv1nEUtweCHY=");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+  
+  .rock {
+    background-image: url("https://static.pexels.com/photos/144428/pexels-photo-144428.jpeg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+  
+  .focus {
+    background-image: url("https://media.istockphoto.com/photos/young-woman-relaxing-at-home-and-listening-music-picture-id1280339057?b=1&k=20&m=1280339057&s=170667a&w=0&h=ciC64OXgLZ3Ysrtrrh0ogrkPkOL1Hu4665amvGT15Pk=");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+  
+  .randb {
+    background-image: url("https://static.pexels.com/photos/220211/pexels-photo-220211.jpeg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+  
+  .party {
+    background-image: url("https://static.pexels.com/photos/248427/pexels-photo-248427.jpeg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+
+
+
+
+
+  
